@@ -47,7 +47,7 @@ h1 {
   line-height: 62px !important;
 
   letter-spacing: -2.4px !important;
-  color: #18214d !important;
+  color: black !important;
 }
 img {
   pointer-events: none;
@@ -78,7 +78,7 @@ h2 {
   line-height: 44px !important;
 
   letter-spacing: -1.5px !important;
-  color: #18214d !important;
+  color: black !important;
 }
 h3 {
   padding: 0 !important;
@@ -91,7 +91,7 @@ h3 {
   line-height: 30px !important;
 
   letter-spacing: -0.55px !important;
-  color: #18214d !important;
+  color: black !important;
 }
 strong {
   font-family: "Inter", "Arial", sans-serif;
@@ -101,7 +101,7 @@ strong {
   line-height: 30px;
 
   letter-spacing: -0.55px;
-  color: #18214d;
+  color: black;
 }
 
 a:hover {
@@ -311,7 +311,7 @@ h1 + p {
   background: #162150 !important;
 }
 .swiper-pagination-bullet-active {
-  background: #18214d !important;
+  background: black !important;
   outline: none !important;
 }
 .dark .swiper-pagination-bullet-active {
@@ -383,7 +383,7 @@ h1 + p {
   line-height: 22px;
   letter-spacing: -0.4px;
 
-  color: #18214d !important;
+  color: black !important;
   background-color: transparent !important;
   position: relative;
 
@@ -525,7 +525,7 @@ h1 + p {
   font-size: 22px !important;
   line-height: 30px !important;
   letter-spacing: -0.55px !important;
-  color: #18214d !important;
+  color: black !important;
 }
 .ant-collapse
   > .ant-collapse-item
@@ -557,7 +557,7 @@ h1 + p {
   line-height: 26px !important;
   letter-spacing: -0.3px !important;
 
-  color: #18214d !important;
+  color: black !important;
   height: 60px !important;
   border-radius: 8px !important;
 }
@@ -572,7 +572,7 @@ h1 + p {
   line-height: 60px !important;
   letter-spacing: -0.3px !important;
 
-  color: #18214d !important;
+  color: black !important;
   height: 60px !important;
   opacity: 1 !important;
 }
@@ -599,7 +599,7 @@ h1 + p {
   min-height: 50px !important;
   padding: 5px 12px !important;
   padding-left: 20px !important;
-  color: #18214d !important;
+  color: black !important;
   font-weight: normal !important;
   font-size: 18px !important;
   line-height: 40px !important;
@@ -636,7 +636,7 @@ h1 + p {
   color: rgba(24, 33, 77, 0.1);
 }
 .ant-rate {
-  color: #18214d !important;
+  color: black !important;
   background-color: transparent !important;
 }
 
@@ -724,7 +724,7 @@ span[class*="ant-input-search-icon"] ::before {
   line-height: 26px !important;
   letter-spacing: -0.3px !important;
 
-  color: #18214d;
+  color: black;
   height: 50px !important;
   border-radius: 8px !important;
 }
@@ -732,7 +732,7 @@ span[class*="ant-input-search-icon"] ::before {
 .big.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
   line-height: 50px !important;
   letter-spacing: -0.3px !important;
-  color: #18214d;
+  color: black;
   height: 50px !important;
   opacity: 1 !important;
 }
@@ -755,7 +755,7 @@ span[class*="ant-input-search-icon"] ::before {
   font-size: 20px !important;
   line-height: 28px !important;
   letter-spacing: -0.4px !important;
-  color: #18214d;
+  color: black;
   border: none !important;
   background-color: #eff2f6 !important;
   outline: none !important;
@@ -776,7 +776,7 @@ span[class*="ant-input-search-icon"] ::before {
   height: 40px !important;
 }
 .dark.ant-input-number {
-  background-color: #18214d !important;
+  background-color: black !important;
   color: #ffffff;
 }
 .dark .ant-input-number-handler:active {
@@ -830,7 +830,7 @@ span[class*="ant-input-search-icon"] ::before {
     font-size: 20px !important;
     line-height: 20px !important;
     letter-spacing: -0.55px !important;
-    color: #18214d !important;
+    color: black !important;
   }
 }
 
@@ -843,7 +843,7 @@ span[class*="ant-input-search-icon"] ::before {
     line-height: 26px !important;
     letter-spacing: -0.3px !important;
 
-    color: #18214d !important;
+    color: black !important;
     height: 50px !important;
     border-radius: 8px !important;
   }
@@ -851,7 +851,7 @@ span[class*="ant-input-search-icon"] ::before {
   .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
     line-height: 50px !important;
     letter-spacing: -0.3px !important;
-    color: #18214d !important;
+    color: black !important;
     height: 50px !important;
     opacity: 1 !important;
   }

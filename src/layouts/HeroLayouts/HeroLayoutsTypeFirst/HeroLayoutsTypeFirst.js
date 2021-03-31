@@ -17,6 +17,7 @@ const HeroLayoutsTypeFirst = (props) => {
   return (
     <>
       <section
+        style={{ backgroundColor: "#FDCA40" }}
         className={`${classes.hero} ${
           props.dark ? `dark ${classes.dark}` : ""
         }`}
@@ -69,7 +70,7 @@ const HeroLayoutsTypeFirst = (props) => {
                         src={RightImage}
                         alt="farmer"
                         style={{
-                          width: "1120px",
+                          height: "100%",
                           objectFit: "cover",
                           transform: "rotateY(180deg)",
                         }}
