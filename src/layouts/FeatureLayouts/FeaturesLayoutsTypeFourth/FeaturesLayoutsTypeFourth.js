@@ -7,7 +7,7 @@ import Video from "../../../img/gopasar_loop_mini_2.mp4"
 
 import { Fade } from "react-awesome-reveal"
 const title = "But How? How Does It Work ?"
-const description = "Why you speend hundred hours"
+const description = ""
 
 const FeaturesLayoutsTypeFourth = (props) => {
   return (

@@ -7,7 +7,7 @@ class Badge extends Component {
     const isAppStore = this.props.store
     const bgColor = this.props.bgColor || "#345dee"
     const radius = this.props.radius || "8"
-    const color = this.props.radius || "#000"
+    const fontColor = this.props.fontColor
 
     return (
       <React.Fragment>
@@ -19,7 +19,7 @@ class Badge extends Component {
             className={`Badge-link ${this.props.classes}`}
             style={{
               backgroundColor: `${bgColor}`,
-              color: `${color} !important`,
+              color: `${fontColor} !important`,
               borderRadius: `${radius}px`,
             }}
           >
@@ -39,7 +39,7 @@ class Badge extends Component {
             className={`Badge-link ${this.props.classes}`}
             style={{
               backgroundColor: `${bgColor}`,
-              color: `${color}`,
+              color: `${fontColor}`,
               borderRadius: `${radius}px`,
             }}
           >

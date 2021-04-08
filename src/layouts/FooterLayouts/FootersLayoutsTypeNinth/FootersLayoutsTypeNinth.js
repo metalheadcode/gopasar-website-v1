@@ -33,12 +33,19 @@ function FootersLayoutsTypeNinth(props) {
               </Col>
               <Col className={`col-auto ml-auto ${classes.rightColumn}`}>
                 <Fade top delay={50} triggerOnce={true}>
-                  <Badge
-                    target="_blank"
-                    isAppStore={false}
-                    color="#03372B"
-                    link="https://play.google.com/store/apps/details?id=ai.neuon.gopasar"
-                  />
+                  <div className={classes.mangkuk}>
+                    <Badge
+                      store={false}
+                      bgColor="#03372B"
+                      link="https://play.google.com/store/apps/details?id=ai.neuon.gopasar"
+                    />
+                    <Badge
+                      store={true}
+                      bgColor={"black"}
+                      color={"black"}
+                      link="/ios"
+                    />
+                  </div>
                 </Fade>
               </Col>
             </Row>

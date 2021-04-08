@@ -1,0 +1,20 @@
+.header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  padding: 13px 0 13px 0;
+
+  box-shadow: 4px 8px 66px -16px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 4px 8px 66px -16px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 4px 8px 66px -16px rgba(0, 0, 0, 0.58);
+}
+
+@media screen and (max-width: 450px) {
+  .gridWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

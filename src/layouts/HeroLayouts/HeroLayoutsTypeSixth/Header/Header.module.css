@@ -2,6 +2,12 @@
   color: black;
 }
 
+.mangkuk {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
 .header div[class*="navbar-nav"] a[class*="nav-link"] {
   padding-left: 15px !important;
   padding-right: 15px !important;
@@ -13,7 +19,7 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: -0.4px;
-  color: #18214d;
+  color: black;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -93,16 +99,6 @@
 .header span[class*="ant-input-affix-wrapper"] > input[class*="ant-input"] {
   background: transparent;
 }
-.header span[class*="ant-input-search-icon"] {
-  margin-left: 0.3em;
-  padding: 0;
-}
-.header span[class*="ant-input-search-icon"] ::before {
-  display: none;
-}
-.header .search {
-  display: none;
-}
 .dark.header div[class*="navbar-nav"] a[class*="nav-link"]:hover {
   color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -138,6 +134,9 @@ button[class*="custom-toggler"] {
 }
 
 @media screen and (max-width: 991px) {
+  .mangkuk {
+    margin-top: 40px;
+  }
   .wrapper {
     width: 100%;
     display: grid;
@@ -151,17 +150,8 @@ button[class*="custom-toggler"] {
     margin-right: 0;
     padding: 0;
   }
-  .header span[class*="ant-input-search-icon"]::before {
-    display: none;
-  }
   .header span[class*="ant-input-affix-wrapper"] {
     padding-left: 35px;
-  }
-  .header .search {
-    display: flex;
-    align-items: center;
-    grid-row: 1;
-    grid-column: 1/2;
   }
   .header button[class*="navbar-toggler"] {
     grid-column: 3/-1;
@@ -204,6 +194,13 @@ button[class*="custom-toggler"] {
   .header span[class*="ant-input-affix-wrapper"] {
     width: 200px !important;
   }
+
+  .mangkuk {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
   .header .wrapper {
     width: 100%;
     display: grid;
@@ -216,11 +213,6 @@ button[class*="custom-toggler"] {
     grid-row: 1;
     text-align: left;
     margin-right: 0;
-  }
-  .header .search {
-    display: block;
-    grid-row: 2;
-    grid-column: 1/2;
   }
   .header button[class*="navbar-toggler"] {
     grid-column: 3/-1;

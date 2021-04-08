@@ -7,7 +7,6 @@ import Button from "../../../components/Button/Button"
 import firstMockup from "../../../img/Mockups/iPhone.png"
 import secondMockup from "../../../img/Mockups/iPadPro.png"
 import Socials from "./Socials/Socials"
-import Header from "./Header/Header"
 import classes from "./HeroLayoutsTypeSixth.module.css"
 import { Fade } from "react-awesome-reveal"
 
@@ -25,11 +24,6 @@ const HeroLayoutsTypeSixth = (props) => {
         }`}
       >
         <div className={classes.gridWrapper}>
-          <Container>
-            <Fade top triggerOnce={true}>
-              <Header dark={props.dark ? true : false} />
-            </Fade>
-          </Container>
           <Container>
             <Row className={classes.contentRow}>
               <Col lg="12" md="12" className="position-relative">

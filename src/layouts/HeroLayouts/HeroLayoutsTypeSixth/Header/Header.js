@@ -1,12 +1,10 @@
 import React from "react"
 import classes from "./Header.module.css"
-import { Nav, Navbar, Form, FormControl } from "react-bootstrap"
+import { Nav, Navbar } from "react-bootstrap"
 import Badge from "../../../../components/Badges/Badges"
 import { AppLogo } from "../../../../components/Icons/Icons"
 import Socials from "../Socials/Socials"
 import { HashLink } from "react-router-hash-link"
-import { Input } from "antd"
-const { Search } = Input
 
 const Header = (props) => {
   return (
@@ -17,15 +15,10 @@ const Header = (props) => {
     >
       <Navbar collapseOnSelect expand="lg" className="p-0">
         <div className={classes.wrapper}>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <AppLogo />
           </Navbar.Brand>
-          <div className={classes.search}>
-            <Search
-              onSearch={(value) => console.log(value)}
-              style={{ width: 150 }}
-            />
-          </div>
+
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             className="custom-toggler"
@@ -46,19 +39,15 @@ const Header = (props) => {
               <HashLink to="/#contact">Contacts</HashLink>
             </Nav.Link>
           </Nav>
-          <Badge
-            isAppStore={false}
-            color="#03372B"
-            link="https://play.google.com/store/apps/details?id=ai.neuon.gopasar"
-          />
+          <div className={classes.mangkuk}>
+            <Badge
+              store={false}
+              bgColor="#03372B"
+              link="https://play.google.com/store/apps/details?id=ai.neuon.gopasar"
+            />
+            <Badge store={true} bgColor={"black"} color={"black"} link="/ios" />
+          </div>
           <div className={classes.hiddenElements}>
-            <Form className="form">
-              <FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-            </Form>
             <Socials />
           </div>
         </Navbar.Collapse>
