@@ -29,7 +29,7 @@ class Button extends Component {
       <React.Fragment>
         {this.props.link === true ? (
           <a
-            target="_blank"
+            target={this.props.target}
             rel="noreferrer"
             href={this.props.href}
             className={`Button ${this.props.classes} ${this.props.size}`}

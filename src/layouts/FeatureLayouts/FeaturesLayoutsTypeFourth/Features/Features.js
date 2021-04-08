@@ -14,9 +14,7 @@ const Features = (props) => {
           <Fade top delay={150} triggerOnce={true}>
             <Feature
               title={"We Have Access To Smart Farming"}
-              description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
-              }
+              description={"We have access to smart farming"}
             >
               <Oval variant={"normal"}>
                 <Bookmark />
@@ -27,10 +25,8 @@ const Features = (props) => {
         <Col lg="4" md="6" className={classes.feature}>
           <Fade top delay={200} triggerOnce={true}>
             <Feature
-              title={"Feature 2"}
-              description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
-              }
+              title={"We Have Access To Smart Farming"}
+              description={"We have access to smart farming"}
             >
               <Oval variant={"normal"}>
                 <Email />
@@ -41,10 +37,8 @@ const Features = (props) => {
         <Col lg="4" md="6" className={classes.feature}>
           <Fade top delay={250} triggerOnce={true}>
             <Feature
-              title={"Feature 3"}
-              description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
-              }
+              title={"We Have Access To Smart Farming"}
+              description={"We have access to smart farming"}
             >
               <Oval variant={"normal"}>
                 <Assigment />

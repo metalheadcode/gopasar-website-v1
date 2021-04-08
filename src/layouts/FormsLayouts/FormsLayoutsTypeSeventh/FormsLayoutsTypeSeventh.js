@@ -13,7 +13,7 @@ function FormsLayoutsTypeSeventh(props) {
   return (
     <React.Fragment>
       <section
-        id="contact"
+        id={props.id}
         className={`section ${classes.form} ${
           props.dark ? `dark ${classes.dark}` : ""
         }`}

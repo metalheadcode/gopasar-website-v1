@@ -6,7 +6,6 @@ import Button from "../../../components/Button/Button"
 
 import firstMockup from "../../../img/Mockups/iPhone.png"
 import secondMockup from "../../../img/Mockups/iPadPro.png"
-import RightImage from "../../../img/young-woman-controlling-plantation-min.jpg"
 import Socials from "./Socials/Socials"
 import Header from "./Header/Header"
 import classes from "./HeroLayoutsTypeSixth.module.css"
@@ -21,7 +20,6 @@ const HeroLayoutsTypeSixth = (props) => {
   return (
     <>
       <section
-        style={{ backgroundImage: RightImage }}
         className={`${classes.hero} ${
           props.dark ? `dark ${classes.dark}` : ""
         }`}

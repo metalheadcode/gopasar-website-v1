@@ -5,8 +5,9 @@ import { AppStore, PlayMarket } from "../Icons/Icons"
 class Badge extends Component {
   render() {
     const isAppStore = this.props.store
-    const color = this.props.color || "#345dee"
+    const bgColor = this.props.bgColor || "#345dee"
     const radius = this.props.radius || "8"
+    const color = this.props.radius || "#000"
 
     return (
       <React.Fragment>
@@ -17,7 +18,8 @@ class Badge extends Component {
             rel="noreferrer"
             className={`Badge-link ${this.props.classes}`}
             style={{
-              backgroundColor: `${color}`,
+              backgroundColor: `${bgColor}`,
+              color: `${color} !important`,
               borderRadius: `${radius}px`,
             }}
           >
@@ -36,7 +38,8 @@ class Badge extends Component {
             rel="noreferrer"
             className={`Badge-link ${this.props.classes}`}
             style={{
-              backgroundColor: `${color}`,
+              backgroundColor: `${bgColor}`,
+              color: `${color}`,
               borderRadius: `${radius}px`,
             }}
           >

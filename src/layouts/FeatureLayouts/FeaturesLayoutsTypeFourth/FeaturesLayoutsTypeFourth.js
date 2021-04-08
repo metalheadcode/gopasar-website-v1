@@ -3,11 +3,11 @@ import classes from "./FeaturesLayoutsTypeFourth.module.css"
 
 import { Container, Col, Row } from "reactstrap"
 import Features from "./Features/Features"
+import Video from "../../../img/gopasar_loop_mini_2.mp4"
 
 import { Fade } from "react-awesome-reveal"
-const title = "How Does GoPasar Work?"
-const description =
-  "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!"
+const title = "But How? How Does It Work ?"
+const description = "Why you speend hundred hours"
 
 const FeaturesLayoutsTypeFourth = (props) => {
   return (
@@ -40,12 +40,16 @@ const FeaturesLayoutsTypeFourth = (props) => {
             <Row>
               <Col className={classes.centerContainer}>
                 <Fade top delay={100} triggerOnce={true}>
-                  <iframe
+                  <video
+                    width="100%"
                     title="looping video"
                     style={{ borderRadius: "30px" }}
-                    src="https://www.youtube.com/embed/sYZ-F-hB3Qo?vq=hd1080&autoplay=1&mute=1&loop=1&fs=0&color=white&controls=0&disablekb=1"
-                    frameborder="0"
-                  />
+                    autoplay=""
+                    loop
+                    muted
+                  >
+                    <source src={Video}></source>
+                  </video>
                 </Fade>
               </Col>
             </Row>

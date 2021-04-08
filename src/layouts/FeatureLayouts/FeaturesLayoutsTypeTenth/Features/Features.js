@@ -20,9 +20,9 @@ const Features = (props) => {
         <Col lg="4" md="6" sm="6" className={classes.item}>
           <Fade top delay={100} triggerOnce={true}>
             <Feature
-              title={"Feature 1"}
+              title={"Wholesales Trading"}
               description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
+                "One stop B2B e-commerce platform for agriproduct trading."
               }
             >
               <Oval variant={"large"}>
@@ -34,9 +34,9 @@ const Features = (props) => {
         <Col lg="4" md="6" sm="6" className={classes.item}>
           <Fade top delay={150} triggerOnce={true}>
             <Feature
-              title={"Feature 2"}
+              title={"Automated Invoice"}
               description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
+                "Billing your customers automatically via email or digital receipt."
               }
             >
               <Oval variant={"large"}>
@@ -48,9 +48,9 @@ const Features = (props) => {
         <Col lg="4" md="6" sm="6" className={classes.item}>
           <Fade top delay={200} triggerOnce={true}>
             <Feature
-              title={"Feature 3"}
+              title={"Pre-Booking"}
               description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
+                "Manage and book the agriproducts from farm at the lowest price guarantee."
               }
             >
               <Oval variant={"large"}>
@@ -62,9 +62,9 @@ const Features = (props) => {
         <Col lg="4" md="6" sm="6" className={classes.item}>
           <Fade top delay={250} triggerOnce={true}>
             <Feature
-              title={"Feature 4"}
+              title={"Customer Management"}
               description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
+                "Manage your customer’s contact, purchase billing and more in one platform."
               }
             >
               <Oval variant={"large"}>
@@ -76,9 +76,9 @@ const Features = (props) => {
         <Col lg="4" md="6" sm="6" className={classes.item}>
           <Fade top delay={300} triggerOnce={true}>
             <Feature
-              title={"Feature 5"}
+              title={"Trend Analysis"}
               description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
+                "Providing our selected VIPs with the market trend analysis."
               }
             >
               <Oval variant={"large"}>
@@ -90,9 +90,9 @@ const Features = (props) => {
         <Col lg="4" md="6" sm="6" className={classes.item}>
           <Fade top delay={400} triggerOnce={true}>
             <Feature
-              title={"Feature 6"}
+              title={"Trackable Purchase"}
               description={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam."
+                "Every process from farm to logistic are trackable. "
               }
             >
               <Oval variant={"large"}>

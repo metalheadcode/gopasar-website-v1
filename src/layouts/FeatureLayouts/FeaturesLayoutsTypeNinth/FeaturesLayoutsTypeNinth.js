@@ -1,19 +1,18 @@
 import React from "react"
 import Features from "./Features/Features"
-
 import { Container, Col, Row } from "reactstrap"
 import { Fade } from "react-awesome-reveal"
-import Button from "../../../components/Button/Button"
 import classes from "./FeaturesLayoutsTypeNinth.module.css"
 
-const title = "Why Farmer And Seller Should Use Go Pasar?"
-const description = "Why pay more, if you can buy with lower prices?"
-
 const FeaturesLayoutsTypeNinth = (props) => {
+  const title = props.title
+  const description = props.description
+  const features = props.features
+
   return (
     <>
       <section
-        id="why"
+        id={props.id}
         className={`section ${classes.features} ${
           props.dark ? `dark ${classes.dark}` : ""
         }`}
@@ -34,14 +33,6 @@ const FeaturesLayoutsTypeNinth = (props) => {
                     {description}
                   </p>
                 </Fade>
-                <Fade down delay={100} triggerOnce={true}>
-                  <Button
-                    link={true}
-                    href={"#"}
-                    classes={`secondary large simple ${classes.button}`}
-                    value={"Read More"}
-                  />
-                </Fade>
               </Col>
               <Col lg={{ size: 1, offset: 1 }} md={{ size: 1 }}>
                 <Fade down delay={100} triggerOnce={true}>
@@ -54,7 +45,7 @@ const FeaturesLayoutsTypeNinth = (props) => {
                 md={{ size: 5 }}
                 className={classes.featuresColumn}
               >
-                <Features />
+                <Features features={features} />
               </Col>
             </Row>
           </Container>

@@ -45,6 +45,7 @@ function CTALayoutsTypeTwelve(props) {
                 <Fade top delay={100} triggerOnce={true}>
                   <Button
                     link={true}
+                    target={"_blank"}
                     href={`https://wa.me/60146884403?text=I'm%20interested%20to%20talk%20more%20about%20GoPasar%20project.`}
                     type={"submit"}
                     classes={"primary large simple w-100"}
