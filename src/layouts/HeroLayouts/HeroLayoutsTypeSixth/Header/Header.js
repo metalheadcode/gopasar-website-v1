@@ -41,11 +41,18 @@ const Header = (props) => {
           </Nav>
           <div className={classes.mangkuk}>
             <Badge
+              target={"_blank"}
               store={false}
               bgColor="#03372B"
               link="https://play.google.com/store/apps/details?id=ai.neuon.gopasar"
             />
-            <Badge store={true} bgColor={"black"} color={"black"} link="/ios" />
+            <Badge
+              target
+              store={true}
+              bgColor={"black"}
+              color={"black"}
+              link="/ios"
+            />
           </div>
           <div className={classes.hiddenElements}>
             <Socials />

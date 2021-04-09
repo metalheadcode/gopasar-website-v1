@@ -2,10 +2,12 @@ import React from "react"
 import { Route, Switch } from "react-router-dom"
 import { Container } from "reactstrap"
 import Header from "./layouts/HeroLayouts/HeroLayoutsTypeSixth/Header/Header.js"
-import Homescreen from "./screens/Homescreen.js"
-import UnderDevelopement from "./screens/UnderDevelopement.js"
+
 import classes from "./App.module.css"
 import FootersLayoutsTypeNinth from "./layouts/FooterLayouts/FootersLayoutsTypeNinth/FootersLayoutsTypeNinth.js"
+
+import Homescreen from "./screens/Homescreen.js"
+import UnderDevelopement from "./screens/UnderDevelopement.js"
 
 function App() {
   const dark = false

@@ -14,7 +14,7 @@ class Badge extends Component {
         {isAppStore ? (
           <a
             href={this.props.link}
-            target="_blank"
+            target={this.props.target}
             rel="noreferrer"
             className={`Badge-link ${this.props.classes}`}
             style={{
@@ -34,7 +34,7 @@ class Badge extends Component {
         ) : (
           <a
             href={this.props.link}
-            target="_blank"
+            target={this.props.target}
             rel="noreferrer"
             className={`Badge-link ${this.props.classes}`}
             style={{
