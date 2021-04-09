@@ -4,7 +4,7 @@ import { Col, Container, Row } from "reactstrap"
 import VerticalModal from "./VerticalModal/VerticalModal"
 import Feature from "./Feature/FeatureTypeFourth"
 import Oval from "../../../components/Frame/Frame"
-import { Email } from "../../../components/Icons/Icons"
+
 import FeatureCard from "./FeatureCard/FeaturesTypeTwelve"
 import { Fade } from "react-awesome-reveal"
 import classes from "./FeaturesLayoutsTypeTwelve.module.css"
@@ -66,8 +66,8 @@ function FeaturesLayoutsTypeTwelve(props) {
                           description={feature.subDescription}
                           dark={props.dark ? true : false}
                         >
-                          <Oval variant={"normal"}>
-                            <Email />
+                          <Oval variant={"large"}>
+                            <span>{feature.icon} </span>
                           </Oval>
                         </Feature>
                       ))}

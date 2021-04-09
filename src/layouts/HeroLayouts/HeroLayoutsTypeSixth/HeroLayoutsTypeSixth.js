@@ -1,8 +1,6 @@
 import React from "react"
 
 import { Container, Col, Row } from "reactstrap"
-import { ArrowRight } from "../../../components/Icons/Icons"
-import Button from "../../../components/Button/Button"
 
 import firstMockup from "../../../img/Mockups/iPhone.png"
 import secondMockup from "../../../img/Mockups/iPadPro.png"
@@ -12,8 +10,7 @@ import { Fade } from "react-awesome-reveal"
 
 const titleText = "Build By Farmer For Farmer"
 const descriptionText =
-  "You no longger need a whatsapps or middle man to manage your wholesale. Use GoPasar!"
-const baseLinkText = "Get Started"
+  "You no longer need a whatsapps or middle man to manage your wholesale. Use GoPasar!"
 
 const HeroLayoutsTypeSixth = (props) => {
   return (
@@ -55,17 +52,6 @@ const HeroLayoutsTypeSixth = (props) => {
                   <p className={`normal-text ${classes.description}`}>
                     {descriptionText}
                   </p>
-                </Fade>
-                <Fade top delay={150} triggerOnce={true}>
-                  <div className={classes.buttonElement}>
-                    <Button
-                      link={true}
-                      href={"#"}
-                      classes={"primary large right-icon"}
-                      value={baseLinkText}
-                      rightIcon={<ArrowRight fill="#ffffff" />}
-                    />
-                  </div>
                 </Fade>
 
                 <div className={classes.socials}>

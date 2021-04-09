@@ -1,17 +1,18 @@
 import React from "react"
 import { Col, Row } from "reactstrap"
 import Feature from "../Feature/FeaturesTypeEighth"
-import {
-  Basket,
-  Bookmark,
-  Email,
-  Extension,
-  Group,
-  Home,
-} from "../../../../components/Icons/Icons"
 import Oval from "../../../../components/Frame/Frame"
 import { Fade } from "react-awesome-reveal"
 import classes from "./Features.module.css"
+
+import {
+  SixFeaturesOne,
+  SixFeaturesTwo,
+  SixFeaturesThree,
+  SixFeaturesFour,
+  SixFeaturesFive,
+  SixFeaturesSix,
+} from "../../../../components/Icons/Icons"
 
 const Features = (props) => {
   return (
@@ -26,7 +27,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"large"}>
-                <Bookmark />
+                <SixFeaturesOne />
               </Oval>
             </Feature>
           </Fade>
@@ -40,7 +41,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"large"}>
-                <Home />
+                <SixFeaturesTwo />
               </Oval>
             </Feature>
           </Fade>
@@ -54,7 +55,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"large"}>
-                <Basket />
+                <SixFeaturesThree />
               </Oval>
             </Feature>
           </Fade>
@@ -68,7 +69,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"large"}>
-                <Extension />
+                <SixFeaturesFour />
               </Oval>
             </Feature>
           </Fade>
@@ -82,7 +83,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"large"}>
-                <Group />
+                <SixFeaturesFive />
               </Oval>
             </Feature>
           </Fade>
@@ -96,7 +97,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"large"}>
-                <Email />
+                <SixFeaturesSix />
               </Oval>
             </Feature>
           </Fade>
