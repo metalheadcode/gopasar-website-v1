@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5d265ff.chunk.css",
+    "main.js": "/static/js/main.7fddd7ae.chunk.js",
+    "main.js.map": "/static/js/main.7fddd7ae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.befe8fed.js",
+    "runtime-main.js.map": "/static/js/runtime-main.befe8fed.js.map",
+    "static/css/2.49942370.chunk.css": "/static/css/2.49942370.chunk.css",
+    "static/js/2.c917f050.chunk.js": "/static/js/2.c917f050.chunk.js",
+    "static/js/2.c917f050.chunk.js.map": "/static/js/2.c917f050.chunk.js.map",
+    "static/js/3.0b8a2042.chunk.js": "/static/js/3.0b8a2042.chunk.js",
+    "static/js/3.0b8a2042.chunk.js.map": "/static/js/3.0b8a2042.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.49942370.chunk.css.map": "/static/css/2.49942370.chunk.css.map",
+    "static/css/main.e5d265ff.chunk.css.map": "/static/css/main.e5d265ff.chunk.css.map",
+    "static/js/2.c917f050.chunk.js.LICENSE.txt": "/static/js/2.c917f050.chunk.js.LICENSE.txt",
+    "static/media/asian-young-farmer-using-tablet-green-rice-field-using-technology-smart-farmer-concept.f5ecd9c2.png": "/static/media/asian-young-farmer-using-tablet-green-rice-field-using-technology-smart-farmer-concept.f5ecd9c2.png",
+    "static/media/business-flip-small.3141f690.mp4": "/static/media/business-flip-small.3141f690.mp4",
+    "static/media/gopasar_loop_mini_2.9f371842.mp4": "/static/media/gopasar_loop_mini_2.9f371842.mp4",
+    "static/media/iPadPro.dd4dd54a.png": "/static/media/iPadPro.dd4dd54a.png",
+    "static/media/iPhone.58abff28.png": "/static/media/iPhone.58abff28.png",
+    "static/media/index.css": "/static/media/inter-semibold.4488c1cc.woff2",
+    "static/media/underDevelopment.c6684f21.svg": "/static/media/underDevelopment.c6684f21.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.befe8fed.js",
+    "static/css/2.49942370.chunk.css",
+    "static/js/2.c917f050.chunk.js",
+    "static/css/main.e5d265ff.chunk.css",
+    "static/js/main.7fddd7ae.chunk.js"
+  ]
+}
