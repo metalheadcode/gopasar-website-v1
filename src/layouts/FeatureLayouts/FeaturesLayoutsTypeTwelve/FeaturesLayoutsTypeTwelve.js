@@ -18,7 +18,7 @@ function FeaturesLayoutsTypeTwelve(props) {
     <React.Fragment>
       <section
         id={props.id}
-        className={`section ${classes.features} ${
+        className={`section anchorMargin ${classes.features} ${
           props.dark ? `dark ${classes.dark}` : ""
         }`}
       >
@@ -31,7 +31,7 @@ function FeaturesLayoutsTypeTwelve(props) {
               height: "100%",
               objectFit: "cover",
             }}
-            autoPlay=""
+            autoPlay
             loop
             muted
           >
@@ -66,8 +66,8 @@ function FeaturesLayoutsTypeTwelve(props) {
                           description={feature.subDescription}
                           dark={props.dark ? true : false}
                         >
-                          <Oval variant={"large"}>
-                            <span>{feature.icon} </span>
+                          <Oval color={"#FDCA40"} variant={"large"}>
+                            <span>{feature.icon}</span>
                           </Oval>
                         </Feature>
                       ))}
