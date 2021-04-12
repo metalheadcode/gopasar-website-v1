@@ -25,16 +25,16 @@ const Header = (props) => {
         </div>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link eventKey="1" href="#why">
+            <Nav.Link eventKey="1" href="/#why">
               Why
             </Nav.Link>
-            <Nav.Link eventKey="2" href="#how">
+            <Nav.Link eventKey="2" href="/#how">
               How
             </Nav.Link>
-            <Nav.Link eventKey="3" href="#what">
+            <Nav.Link eventKey="3" href="/#what">
               What
             </Nav.Link>
-            <Nav.Link eventKey="4" href="#contact">
+            <Nav.Link eventKey="4" href="/#contact">
               Contact
             </Nav.Link>
           </Nav>
