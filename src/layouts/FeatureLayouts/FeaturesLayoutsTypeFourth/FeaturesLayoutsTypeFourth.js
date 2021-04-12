@@ -44,7 +44,7 @@ const FeaturesLayoutsTypeFourth = (props) => {
                     width="100%"
                     title="looping video"
                     style={{ borderRadius: "30px" }}
-                    autoplay=""
+                    autoPlay
                     loop
                     muted
                   >
