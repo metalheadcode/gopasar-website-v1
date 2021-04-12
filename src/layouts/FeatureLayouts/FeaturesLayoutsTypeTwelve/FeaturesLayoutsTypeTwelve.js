@@ -31,7 +31,7 @@ function FeaturesLayoutsTypeTwelve(props) {
               height: "100%",
               objectFit: "cover",
             }}
-            autoplay=""
+            autoPlay=""
             loop
             muted
           >
