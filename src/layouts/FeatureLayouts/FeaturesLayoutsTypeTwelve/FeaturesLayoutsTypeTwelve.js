@@ -18,7 +18,7 @@ function FeaturesLayoutsTypeTwelve(props) {
     <React.Fragment>
       <section
         id={props.id}
-        className={`section anchorMargin ${classes.features} ${
+        className={`section ${classes.features} ${
           props.dark ? `dark ${classes.dark}` : ""
         }`}
       >
