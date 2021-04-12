@@ -4,7 +4,6 @@ import { Nav, Navbar } from "react-bootstrap"
 import Badge from "../../../../components/Badges/Badges"
 import { AppLogo } from "../../../../components/Icons/Icons"
 import Socials from "../Socials/Socials"
-import { HashLink } from "react-router-hash-link"
 
 const Header = (props) => {
   return (
@@ -26,17 +25,17 @@ const Header = (props) => {
         </div>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link>
-              <HashLink to="/#why">Why</HashLink>
+            <Nav.Link eventKey="1" href="#why">
+              Why
             </Nav.Link>
-            <Nav.Link>
-              <HashLink to="/#how">How</HashLink>
+            <Nav.Link eventKey="2" href="#how">
+              How
             </Nav.Link>
-            <Nav.Link>
-              <HashLink to="/#what">What</HashLink>
+            <Nav.Link eventKey="3" href="#what">
+              What
             </Nav.Link>
-            <Nav.Link>
-              <HashLink to="/#contact">Contacts</HashLink>
+            <Nav.Link eventKey="4" href="#contact">
+              Contact
             </Nav.Link>
           </Nav>
           <div className={classes.mangkuk}>
