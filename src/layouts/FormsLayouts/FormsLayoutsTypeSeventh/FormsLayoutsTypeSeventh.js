@@ -4,9 +4,9 @@ import Form from "./SimpleForm/SimpleForm"
 import { Container, Col, Row } from "reactstrap"
 import classes from "./FormsLayoutsTypeSeventh.module.css"
 import { Fade } from "react-awesome-reveal"
-const title = "Interested, I Want To Do Investment"
+const title = " I wish to explore business opportunities."
 const description =
-  "Interested with our business model and want to join ventures with us? Drop your contact lets discuss what the next project we can build together?"
+  "Interested on our business model.  Looking forward to know more about the potential collaboration, please drop us your Hello. Thanks"
 const shortDescription = "Join over 100 farmers"
 
 function FormsLayoutsTypeSeventh(props) {
