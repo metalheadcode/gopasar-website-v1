@@ -1,7 +1,11 @@
 import React from "react"
 import { Col, Row } from "reactstrap"
 import Feature from "../Feature/FeatureTypeFourth"
-import { Assigment, Bookmark, Email } from "../../../../components/Icons/Icons"
+import {
+  Effective,
+  Automate,
+  Connect,
+} from "../../../../components/Icons/Icons"
 import Oval from "../../../../components/Frame/Frame"
 import { Fade } from "react-awesome-reveal"
 import classes from "./features.module.css"
@@ -19,7 +23,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"normal"}>
-                <Bookmark />
+                <Effective />
               </Oval>
             </Feature>
           </Fade>
@@ -33,7 +37,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"normal"}>
-                <Email />
+                <Automate />
               </Oval>
             </Feature>
           </Fade>
@@ -47,7 +51,7 @@ const Features = (props) => {
               }
             >
               <Oval variant={"normal"}>
-                <Assigment />
+                <Connect />
               </Oval>
             </Feature>
           </Fade>
