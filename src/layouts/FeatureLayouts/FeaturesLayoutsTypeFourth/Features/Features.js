@@ -13,8 +13,10 @@ const Features = (props) => {
         <Col lg="4" md="6" className={classes.feature}>
           <Fade top delay={150} triggerOnce={true}>
             <Feature
-              title={"We Have Access To Smart Farming"}
-              description={"We have access to smart farming"}
+              title={"Seamlessly Connect"}
+              description={
+                "We help to bridge between supply and demand via our customer base."
+              }
             >
               <Oval variant={"normal"}>
                 <Bookmark />
@@ -25,8 +27,10 @@ const Features = (props) => {
         <Col lg="4" md="6" className={classes.feature}>
           <Fade top delay={200} triggerOnce={true}>
             <Feature
-              title={"We Have Access To Smart Farming"}
-              description={"We have access to smart farming"}
+              title={"Automate Process"}
+              description={
+                "We help to handle engage and manage your customers."
+              }
             >
               <Oval variant={"normal"}>
                 <Email />
@@ -37,8 +41,10 @@ const Features = (props) => {
         <Col lg="4" md="6" className={classes.feature}>
           <Fade top delay={250} triggerOnce={true}>
             <Feature
-              title={"We Have Access To Smart Farming"}
-              description={"We have access to smart farming"}
+              title={"Effectively Market"}
+              description={
+                "We help to market all agri-products with our professional team."
+              }
             >
               <Oval variant={"normal"}>
                 <Assigment />
