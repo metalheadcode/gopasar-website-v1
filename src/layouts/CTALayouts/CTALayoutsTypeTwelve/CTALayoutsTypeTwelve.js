@@ -7,7 +7,7 @@ import { Container, Col, Row } from "reactstrap"
 import { Fade } from "react-awesome-reveal"
 
 const description =
-  "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here, making it look like readable English."
+  "We feel so grateful with customer trust, and one them now is our shareholder."
 function CTALayoutsTypeTwelve(props) {
   return (
     <React.Fragment>
