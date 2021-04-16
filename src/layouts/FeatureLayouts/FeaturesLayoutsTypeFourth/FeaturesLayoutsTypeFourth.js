@@ -6,7 +6,6 @@ import Features from "./Features/Features"
 import Video from "../../../img/gopasar_loop_mini_2.mp4"
 
 import { Fade } from "react-awesome-reveal"
-import Button from "../../../components/Button/Button"
 const title = "How Does It Work ?"
 const description = ""
 
@@ -58,19 +57,6 @@ const FeaturesLayoutsTypeFourth = (props) => {
 
           <Container>
             <Features />
-          </Container>
-
-          <Container>
-            <Row className="pt-5 px-3 d-flex justify-content-center">
-              <Button
-                link={true}
-                target={"_blank"}
-                href={"https://gopasar.today/admin-page/login/"}
-                type={"submit"}
-                classes={"secondary large simple w-50"}
-                value={"Login"}
-              />
-            </Row>
           </Container>
         </div>
       </section>

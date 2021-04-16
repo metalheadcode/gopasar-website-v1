@@ -1,7 +1,7 @@
 import React from "react"
 import classes from "./Header.module.css"
 import { Nav, Navbar } from "react-bootstrap"
-import Badge from "../../../../components/Badges/Badges"
+import Button from "../../../../components/Button/Button.js"
 import { AppLogo } from "../../../../components/Icons/Icons"
 import Socials from "../Socials/Socials"
 
@@ -39,18 +39,13 @@ const Header = (props) => {
             </Nav.Link>
           </Nav>
           <div className={classes.mangkuk}>
-            <Badge
+            <Button
+              link={true}
               target={"_blank"}
-              store={false}
-              bgColor="#03372B"
-              link="https://play.google.com/store/apps/details?id=ai.neuon.gopasar"
-            />
-            <Badge
-              target
-              store={true}
-              bgColor={"black"}
-              color={"black"}
-              link="/ios"
+              href={"https://gopasar.today/admin-page/login/"}
+              type={"submit"}
+              classes={"secondary large simple w-100"}
+              value={"Login"}
             />
           </div>
           <div className={classes.hiddenElements}>
