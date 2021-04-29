@@ -52,7 +52,7 @@ function FeaturesLayoutsTypeTwelve(props) {
           <div className={classes.gridWrapper}>
             <Container>
               <Row className={props.cardSide === "right" ? right : left}>
-                <Col lg="6" md="7">
+                <Col lg="6" md="12">
                   <Fade triggerOnce={true}>
                     <FeatureCard
                       title={props.title}
